@@ -17,7 +17,7 @@ Testing is an important part of the development process and many organizations p
 
 
 ## How To run the Javascript Application
-* Clone `` or download the ZIP file.
+* Clone ```https://github.com/hhhoang/udacity-feedreader.git``` or download the ZIP file.
 * Open up `index.html` on browser
 * Wait abit for the page to  load new feeds
 * Scroll down to the bottom to see the test spec
@@ -30,12 +30,15 @@ Using Jasmine I have written a number of tests against a pre-existing applicatio
 
 The page has an hamburger button/menu on the top left corner, which contains (for now) 4 feed channels. For each feed channel when chosen/clicked, the header will display the name of the channel and the content of the page will list some entries found in this channel.
 
-<img src="jasmine.png" alt="Testing specs with Jasmine" width="50%">
+![alt "Testing specs with Jasmine"] (/jasmine.png)
 1. We want to make sure that the **RSS Feeds**
+
 * have defined URL
 * have defined name 
 2. We want to make sure that the elements inside the **menu icon** is by default hidden and when it is clicked it changes accordingly. The menu displays itself when clicked and hides itself when clicked again.
+
 3. The **initial entries** should display at least one entry in the feed container
+
 4. When we change the feed channel the content should change 
 
 
