@@ -94,7 +94,7 @@ $(function() {
             },100);
         });
         it('display at least entry element in the feed container', function(done){
-            expect($('.feed').length).not.toEqual(0);
+            expect($('.feed .entry').length).not.toEqual(0);
             done();
         }
   
