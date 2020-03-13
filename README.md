@@ -30,7 +30,7 @@ Using Jasmine I have written a number of tests against a pre-existing applicatio
 
 The page has an hamburger button/menu on the top left corner, which contains (for now) 4 feed channels. For each feed channel when chosen/clicked, the header will display the name of the channel and the content of the page will list some entries found in this channel.
 
-<img src="jasmine.PNG" alt="Testing specs with Jasmine" width="50%">
+<img src="jasmine.PNG" alt="Testing specs with Jasmine" width="80%">
 
 1. We want to make sure that the **RSS Feeds**
 
